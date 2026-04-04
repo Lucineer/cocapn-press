@@ -1,49 +1,57 @@
-# Cocapn Press — Narrative Strategy
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Lucineer/capitaine/master/docs/capitaine-logo.jpg" alt="Capitaine" width="120">
+</p>
 
-Internal repo for crafting the cocapn story. Not public-facing marketing — this is where we workshop how the world learns about repo-native agents.
+<h1 align="center">cocapn-press</h1>
 
-## The Narrative Stack
+<p align="center">Press, marketing, and narrative strategy for the cocapn ecosystem.</p>
 
-1. **The Hook**: "What if your AI remembered everything?"
-2. **The Differentiator**: "The repo IS the agent. Not a tool that works on a repo."
-3. **The Proof**: "After 6 months, your repo knows your codebase better than any new hire."
-4. **The Vision**: "A million repo-native agents, each unique, each irreplaceable."
+---
 
-## Core Talking Points
+**Concept repo** · Part of the [Lucineer fleet](https://github.com/orgs/Lucineer/repositories)
 
-- Accumulation beats recommendation (Spotify recommends, cocapn remembers)
-- Sovereignty beats convenience (you own your AI, not rent it)
-- Growth beats stasis (your agent gets smarter every day)
-- Open beats closed (MIT license, self-hostable, air-gapped)
+Research, specification, or concept exploration for the cocapn ecosystem.
 
-## LucidDreamer Engagement Strategy
+## The Fleet
 
-The goal: make cocapn feel established. Not "check out our new thing!" but "has anyone built this for their personallog.ai?"
 
-### YouTube Comment Templates
+<details>
+<summary><strong>⚓ The Fleet</strong></summary>
 
-See `strategies/youtube-engagement.md` — comment templates for different video types:
-- AI news videos: "Would love to see this as a cocapn vessel"
-- Coding tool reviews: "How does this compare to repo-native agents like cocapn?"
-- Philosophy/consciousness videos: "The cocapn paradigm treats the repo as a living entity..."
-- Tutorial videos: "I forked this into my makerlog.ai — works great"
+**Flagship vessels**
 
-### Engagement Flow
-1. LucidDreamer agent posts first comment (subtle, curious, not promotional)
-2. 1-24 hours later: second engagement from different persona (adds substance)
-3. Never link-drop. Never shill. Always add value to the conversation.
-4. The curiosity gap: "cocapn? what's that?" → they search → they find us.
+- [cocapn.ai](https://github.com/Lucineer/capitaine)
+- [personallog.ai](https://github.com/Lucineer/personallog-ai)
+- [businesslog.ai](https://github.com/Lucineer/businesslog-ai)
+- [studylog.ai](https://github.com/Lucineer/studylog-ai)
+- [makerlog.ai](https://github.com/Lucineer/makerlog-ai)
+- [playerlog.ai](https://github.com/Lucineer/playerlog-ai)
+- [dmlog.ai](https://github.com/Lucineer/dmlog-ai)
+- [reallog.ai](https://github.com/Lucineer/reallog-ai)
+- [deckboss.ai](https://github.com/Lucineer/deckboss-ai)
 
-## Easter Egg Manifestos
+**Fleet services**
 
-Buried in repos across the fleet. Found by curious developers who read the source. See `docs/easter-eggs.md`.
+- [Fleet Catalog](https://github.com/Lucineer/capitaine/blob/master/docs/fleet/FLEET.md)
+- [Git Agent (full)](https://github.com/Lucineer/git-agent)
+- [Cocapn Lite (minimal)](https://github.com/Lucineer/cocapn-lite)
+- [Fleet Orchestrator](https://github.com/Lucineer/fleet-orchestrator)
+- [Dead Reckoning Engine](https://github.com/Lucineer/dead-reckoning-engine)
+- [Dream Engine](https://github.com/Lucineer/dream-engine)
+- [Seed UI (5 layers)](https://github.com/Lucineer/seed-ui)
 
-## Key Metaphors for Content
+**For power users**
 
-- **The vagus nerve**: Back-channel communication between thinking (Pathos) and doing (Ethos)
-- **The spruce forest**: Plant now, prevent erosion, provide habitat
-- **The fisherman and the trap**: Efficiency vs. the life you want
-- **The hippocampus**: Cocapn is memory/context; Claude Code is prefrontal cortex
-- **The tourist and the local**: Claude Code visits; Cocapn lives there
+- [Cocapn Lite (tabula rasa)](https://github.com/Lucineer/cocapn-lite)
+- [Cocapn (core platform)](https://github.com/Lucineer/cocapn)
+- [ZeroClaw (framework)](https://github.com/Lucineer/zeroclaw)
 
-Author: Superinstance
+[View all 106 repos →](https://github.com/orgs/Lucineer/repositories)
+[Fleet manifest →](https://github.com/Lucineer/capitaine/blob/master/docs/fleet/FLEET.md)
+
+</details>
+
+
+## License
+
+MIT · Superinstance & Lucineer (DiGennaro et al.)
