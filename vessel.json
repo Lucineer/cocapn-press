@@ -1,0 +1,13 @@
+{
+  "name": "cocapn-press",
+  "type": "cocapn-vessel",
+  "version": "1.0.0",
+  "category": "infrastructure",
+  "capabilities": [
+    "press-releases",
+    "engagement-strategy"
+  ],
+  "description": "Press and engagement strategy",
+  "fleet": "https://the-fleet.casey-digennaro.workers.dev",
+  "cocapn": "https://cocapn.ai"
+}
