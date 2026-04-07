@@ -1,57 +1,65 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Lucineer/capitaine/master/docs/capitaine-logo.jpg" alt="Capitaine" width="120">
-</p>
+# cocapn-press
 
-<h1 align="center">cocapn-press</h1>
-
-<p align="center">Press, marketing, and narrative strategy for the cocapn ecosystem.</p>
+Narrative is infrastructure. This is the open repository for the Cocapn Fleet's public messaging, press materials, and narrative strategy.
 
 ---
 
-**Concept repo** · Part of the [Lucineer fleet](https://github.com/orgs/Lucineer/repositories)
+## Why
 
-Research, specification, or concept exploration for the cocapn ecosystem.
+In open-source, code is collaborative but messaging often isn't. Positioning, announcements, and core story fragments get trapped in private channels and personal drafts. This creates inconsistency and gatekeeping.
 
-## The Fleet
+This repository exists to apply the same fork-and-merge workflow to narrative. Treat your project's story with the same transparency as its code.
 
+---
 
-<details>
-<summary><strong>⚓ The Fleet</strong></summary>
+## What this is
 
-**Flagship vessels**
+A version-controlled, publicly editable collection of frameworks and documents that explain the Cocapn Fleet. It includes:
+*   Core positioning and value propositions.
+*   Audience-specific messaging (technical, operator, contributor, press).
+*   Tone and voice guidelines.
+*   Public-facing announcement templates.
 
-- [cocapn.ai](https://github.com/Lucineer/capitaine)
-- [personallog.ai](https://github.com/Lucineer/personallog-ai)
-- [businesslog.ai](https://github.com/Lucineer/businesslog-ai)
-- [studylog.ai](https://github.com/Lucineer/studylog-ai)
-- [makerlog.ai](https://github.com/Lucineer/makerlog-ai)
-- [playerlog.ai](https://github.com/Lucineer/playerlog-ai)
-- [dmlog.ai](https://github.com/Lucineer/dmlog-ai)
-- [reallog.ai](https://github.com/Lucineer/reallog-ai)
-- [deckboss.ai](https://github.com/Lucineer/deckboss-ai)
+It is not a private PR playbook or a substitute for community discussion. It is the starting point for it.
 
-**Fleet services**
+## How it works
 
-- [Fleet Catalog](https://github.com/Lucineer/capitaine/blob/master/docs/fleet/FLEET.md)
-- [Git Agent (full)](https://github.com/Lucineer/git-agent)
-- [Cocapn Lite (minimal)](https://github.com/Lucineer/cocapn-lite)
-- [Fleet Orchestrator](https://github.com/Lucineer/fleet-orchestrator)
-- [Dead Reckoning Engine](https://github.com/Lucineer/dead-reckoning-engine)
-- [Dream Engine](https://github.com/Lucineer/dream-engine)
-- [Seed UI (5 layers)](https://github.com/Lucineer/seed-ui)
+*   **Fork First:** You do not need permission to adapt this narrative. Fork the repo and make it your own.
+*   **Transparent Process:** All changes are proposed via pull requests and discussed in the open.
+*   **Live Assets:** The compiled narrative is served via Cloudflare Workers with zero runtime dependencies.
+*   **Ecosystem Baseline:** Provides a standard narrative foundation that any Fleet project can extend, not rebuild.
 
-**For power users**
+---
 
-- [Cocapn Lite (tabula rasa)](https://github.com/Lucineer/cocapn-lite)
-- [Cocapn (core platform)](https://github.com/Lucineer/cocapn)
-- [ZeroClaw (framework)](https://github.com/Lucineer/zeroclaw)
+## Try it
 
-[View all 106 repos →](https://github.com/orgs/Lucineer/repositories)
-[Fleet manifest →](https://github.com/Lucineer/capitaine/blob/master/docs/fleet/FLEET.md)
+The current public narrative is live and browsable here:  
+https://the-fleet.casey-digennaro.workers.dev
 
-</details>
+---
 
+## Quick Start
+
+1.  Fork this repository.
+2.  Review the `/frameworks` and `/messaging` directories.
+3.  Adapt the core narratives for your own project or community.
+
+## Limitations
+
+This is a text-based framework. Its value depends on active, good-faith participation from the community to keep it current and useful. It can suggest a direction, but cannot enforce consistency.
+
+## Contributing
+
+Contributions to messaging, frameworks, and documentation are welcome. For significant changes to core positioning, please open an issue first to discuss.
 
 ## License
 
-MIT · Superinstance & Lucineer (DiGennaro et al.)
+MIT
+
+Attribution: Superinstance & Lucineer (DiGennaro et al.)
+
+---
+
+<div align="center">
+  <a href="https://the-fleet.casey-digennaro.workers.dev">The Fleet</a> • <a href="https://cocapn.ai">Cocapn</a>
+</div>
