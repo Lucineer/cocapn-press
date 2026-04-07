@@ -1,56 +1,55 @@
 # cocapn-press
 
-Narrative is infrastructure. This is the open repository for the Cocapn Fleet's public messaging, press materials, and narrative strategy.
+> Open source projects often fail from unclear messaging, not bad code.
 
----
-
-## Why
-
-In open-source, code is collaborative but messaging often isn't. Positioning, announcements, and core story fragments get trapped in private channels and personal drafts. This creates inconsistency and gatekeeping.
-
-This repository exists to apply the same fork-and-merge workflow to narrative. Treat your project's story with the same transparency as its code.
-
----
-
-## What this is
-
-A version-controlled, publicly editable collection of frameworks and documents that explain the Cocapn Fleet. It includes:
-*   Core positioning and value propositions.
-*   Audience-specific messaging (technical, operator, contributor, press).
-*   Tone and voice guidelines.
-*   Public-facing announcement templates.
-
-It is not a private PR playbook or a substitute for community discussion. It is the starting point for it.
-
-## How it works
-
-*   **Fork First:** You do not need permission to adapt this narrative. Fork the repo and make it your own.
-*   **Transparent Process:** All changes are proposed via pull requests and discussed in the open.
-*   **Live Assets:** The compiled narrative is served via Cloudflare Workers with zero runtime dependencies.
-*   **Ecosystem Baseline:** Provides a standard narrative foundation that any Fleet project can extend, not rebuild.
-
----
-
-## Try it
-
-The current public narrative is live and browsable here:  
-https://the-fleet.casey-digennaro.workers.dev
+A repository of shared narrative assets and messaging frameworks for the Cocapn Fleet. It provides consistent press materials, positioning, and strategy templates that any project can use, adapt, and improve.
 
 ---
 
 ## Quick Start
 
-1.  Fork this repository.
-2.  Review the `/frameworks` and `/messaging` directories.
-3.  Adapt the core narratives for your own project or community.
+1.  **Fork this repository.**
+2.  Browse the `/frameworks` and `/messaging` directories for templates.
 
-## Limitations
+That's it. Use what you need.
 
-This is a text-based framework. Its value depends on active, good-faith participation from the community to keep it current and useful. It can suggest a direction, but cannot enforce consistency.
+---
+
+## Why This Exists
+
+Writing project announcements, positioning, and documentation is repetitive work that's rarely shared or version-controlled. This repository collects and maintains that work in one open place, so you don't have to start from scratch.
+
+---
+
+## What's Here
+
+*   **Production-Ready Templates:** Copy-and-paste messaging for launches, updates, and community communications.
+*   **Fork-First Philosophy:** Use and modify any content immediately. No permission required.
+*   **Transparent Process:** All changes are proposed and discussed via public pull requests.
+*   **Audience-Specific Framing:** Pre-written sections tailored for developers, operators, and end-users.
+*   **Plain Text Infrastructure:** Built for Cloudflare Workers. Zero dependencies. No build step.
+*   **Ecosystem Baseline:** Provides a consistent narrative starting point for any Fleet project.
+
+---
+
+## Live Preview
+
+The current compiled narrative framework is always available to browse:
+https://the-fleet.casey-digennaro.workers.dev/press
+
+---
+
+## One Limitation
+
+The templates are built for a specific, direct tone of voice. They may require significant adaptation for projects with a vastly different communication style.
+
+---
 
 ## Contributing
 
-Contributions to messaging, frameworks, and documentation are welcome. For significant changes to core positioning, please open an issue first to discuss.
+Improvements to messaging, frameworks, and documentation are welcome. For changes to core positioning, please open an issue to discuss first.
+
+---
 
 ## License
 
