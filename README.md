@@ -1,64 +1,43 @@
 # cocapn-press
 
-> Open source projects often fail from unclear messaging, not bad code.
+A shared library of press materials and messaging frameworks for the Cocapn ecosystem. Every project announcement in the Fleet uses the same three-sentence structure from this repo. Fork it to deploy consistent communications for your own project.
 
-A repository of shared narrative assets and messaging frameworks for the Cocapn Fleet. It provides consistent press materials, positioning, and strategy templates that any project can use, adapt, and improve.
-
----
-
-## Quick Start
-
-1.  **Fork this repository.**
-2.  Browse the `/frameworks` and `/messaging` directories for templates.
-
-That's it. Use what you need.
-
----
+**Live Preview:** https://the-fleet.casey-digennaro.workers.dev/press
 
 ## Why This Exists
 
-Writing project announcements, positioning, and documentation is repetitive work that's rarely shared or version-controlled. This repository collects and maintains that work in one open place, so you don't have to start from scratch.
+You build working code, then waste time explaining it. This repo exists so you can spend that time building instead. We built this for ourselves, then polished it enough for you to use.
 
----
+## Quick Start
 
-## What's Here
+1.  **Fork this repository** to your own GitHub account.
+2.  **Deploy** it instantly as a Cloudflare Worker. It requires zero configuration.
+3.  **Customize** the templates in `/frameworks` and `/messaging` for your project.
 
-*   **Production-Ready Templates:** Copy-and-paste messaging for launches, updates, and community communications.
-*   **Fork-First Philosophy:** Use and modify any content immediately. No permission required.
-*   **Transparent Process:** All changes are proposed and discussed via public pull requests.
-*   **Audience-Specific Framing:** Pre-written sections tailored for developers, operators, and end-users.
-*   **Plain Text Infrastructure:** Built for Cloudflare Workers. Zero dependencies. No build step.
-*   **Ecosystem Baseline:** Provides a consistent narrative starting point for any Fleet project.
+Everything is MIT licensed and built to be copied.
 
----
+## How It Works
 
-## Live Preview
+This is a static asset server running on a single Cloudflare Worker. All content is plain text or Markdown files served directly—no build step, no dependencies, and no database.
 
-The current compiled narrative framework is always available to browse:
-https://the-fleet.casey-digennaro.workers.dev/press
+## What’s Inside
 
----
+*   **Launch Frameworks:** Three core templates for project announcements, updates, and deprecations.
+*   **Audience-Specific Copy:** Pre-written sections for developers, operators, and end-users.
+*   **Fork-First Workflow:** Use any asset immediately; all modifications live in your own fork.
+*   **Zero Dependencies:** Runs natively on Cloudflare Workers. No external packages.
+*   **Plain Text Infrastructure:** All content is Markdown or JSON.
 
 ## One Limitation
 
-The templates are built for a specific, direct tone of voice. They may require significant adaptation for projects with a vastly different communication style.
-
----
+The library includes exactly three announcement templates. If your project requires a significantly different communication cadence or more than three core message types, you will need to expand the framework yourself.
 
 ## Contributing
 
-Improvements to messaging, frameworks, and documentation are welcome. For changes to core positioning, please open an issue to discuss first.
-
----
+Improvements to messaging, templates, or documentation are welcome. For changes to core positioning, please open an issue first to discuss.
 
 ## License
 
 MIT
 
-Attribution: Superinstance & Lucineer (DiGennaro et al.)
-
----
-
-<div align="center">
-  <a href="https://the-fleet.casey-digennaro.workers.dev">The Fleet</a> • <a href="https://cocapn.ai">Cocapn</a>
-</div>
+<div style="text-align:center;padding:16px;color:#64748b;font-size:.8rem"><a href="https://the-fleet.casey-digennaro.workers.dev" style="color:#64748b">The Fleet</a> &middot; <a href="https://cocapn.ai" style="color:#64748b">Cocapn</a></div>
